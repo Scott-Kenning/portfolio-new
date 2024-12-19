@@ -2,26 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer utilities {
+  .prose-invert {
+    --tw-prose-body: #d1d5db;
+    --tw-prose-headings: #ffffff;
+    --tw-prose-links: #8b5cf6;
+    --tw-prose-links-hover: #c084fc;
+    --tw-prose-code: #d1d5db;
+    --tw-prose-pre-bg: #1e293b;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+html {
+  scroll-behavior: smooth;
+}
+  
+.bg-grid {
+  -webkit-mask-image: linear-gradient(to bottom, rgba(1, 1, 1, 1) 80%, rgba(0, 1, 1, 0) 100%);
+  mask-image: linear-gradient(to bottom, rgba(1, 1, 1, 1) 80%, rgba(0, 0, 0, 0) 100%);
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, rgba(128, 128, 128, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(128, 128, 128, 0.08) 1px, transparent 1px);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.blog-post {
+  font-weight: 400;
+
+  h1 {
+    display: flex;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    line-height: 3rem;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2rem;
+    padding-top: 1rem;
+  }
+  
+  h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+  }
+  li {
+    padding: 1rem;
   }
 }
