@@ -399,7 +399,7 @@ const Contact = () => {
       className="flex flex-row items-center justify-between min-h-screen lg:mt-0 max-w-5xl mx-auto"
       >
         <ContactForm/>
-        <div className="hidden lg:block w-[500px] h-[500px]">
+        <div className="hidden lg:block w-[500px] h-[500px] ml-auto">
            <World data={sampleArcs} globeConfig={globeConfig}/>
         </div>
       </section>

@@ -29,8 +29,8 @@ export const data = [
         <div>
           <p className="font-bold pb-2">Software Developer - STR-SpeechTech LTD</p>
           <p className="text-base md:text-lg text-neutral-300 font-normal mb-8">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-</p>
+            Played a key role in the transition from a code monolith to a microservices architecture. Created UI/UX prototypes for various pages of the application. Implemeneted a new service to allow processing of TAC weather data. Worked in a .NET architecture with a React front-end.
+          </p>
         </div>
       ),
     },
@@ -40,7 +40,8 @@ export const data = [
         <div>
           <p className="font-bold pb-2">Full Stack Developer - Leanpub</p>
           <p className="text-base md:text-lg text-neutral-300 font-normal mb-8">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.          </p>
+          Implemented EditAI, an OpenAI powered copy editor for ebooks using AWS lambdas. Designed and developed several features and screens for a ground up rebuild of the Leanpub website using TailwindCSS and NextJS.
+          </p>
         </div>
       ),
     },
@@ -50,7 +51,8 @@ export const data = [
         <div>
           <p className="font-bold pb-2">Testing Engineer - PolicyMe</p>
           <p className="text-base md:text-lg text-neutral-300 font-normal mb-8">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.          </p>
+            Working with the business team, I designed and implemented an exhaustive test suite for a new product. I also implemented several test infrastructure upgrades such as improved website UI and test integration with Slack and Hubspot.
+          </p>
         </div>
       ),
     },
@@ -60,7 +62,8 @@ export const data = [
         <div>
           <p className="font-bold pb-2">Full Stack Developer - Leanpub</p>
           <p className="text-base md:text-lg text-neutral-300 font-normal mb-8">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.          </p>
+            Developed the "Community Edition" feature for Leanpub, allowing authors to give extended samples of their book in exchange for a reader's email address. I also implemented several bug fixes and improved the checkout flow, increasing sale conversions by 15%.
+          </p>
         </div>
       ),
     },

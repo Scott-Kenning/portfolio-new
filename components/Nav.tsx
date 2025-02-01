@@ -14,7 +14,8 @@ const Nav = () => {
             <Link className="text-neutral-300" href="/#experience">Experience</Link>
             <Link className="text-neutral-300" href="/#projects">Projects</Link>
             <Link className="text-neutral-300" href="/#contact">Contact</Link>
-            <Link className="text-neutral-300" href="/blog">Blog</Link>
+            {/* Commenting this out until I have more writing */}
+            {/* <Link className="text-neutral-300" href="/blog">Blog</Link> */}
           </div>
         </div>
       </header>

@@ -17,8 +17,8 @@ const ContactForm = () => {
   }
 
   return (
-    <div className='lg:max-w-sm mx-auto'>
-      <h2 className='font-bold text-4xl mb-2 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-blue-500'>Let&apos;s keep in touch</h2>
+    <div className='lg:max-w-md mr-auto'>
+      <h2 className='font-bold text-4xl mb-2 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-blue-500 mr-8'>Let&apos;s keep in touch</h2>
       <p className='text-neutral-400 mb-6'>
         Send me an email at <strong>skenning128@gmail.com</strong> or fill out the form below to get in contact
       </p>

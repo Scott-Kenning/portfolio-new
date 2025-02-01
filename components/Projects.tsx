@@ -41,7 +41,7 @@ import Image from "next/image";
 
   const Card = ({title, description, url, githubUrl, imagePath}: CardType ) => {
     return (
-      <div className="w-full p-8 rounded-xl border border-neutral-800 flex flex-col gap-y-2 hover:shadow shadow-white">
+      <div className="w-full p-8 rounded-xl border border-neutral-900 flex flex-col gap-y-2 hover:shadow shadow-white">
         <p className="text-xl font-bold">{title}</p>
         <p className="text-neutral-400">{description}</p>
         <a href={url} target="_blank">
