@@ -11,7 +11,7 @@ import Image from "next/image";
     {
       title: "Portfolio v1",
       description: "A previous portfolio I created without the use of any animation or component libraries",
-      url: "https://scottkenning.ca",
+      url: "https://scottkenningv0.vercel.app",
       githubUrl: "https://github.com/scott-kenning/portfolio",
       imagePath: "/portfolio.png"
     },
