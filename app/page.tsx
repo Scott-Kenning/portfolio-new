@@ -5,7 +5,7 @@ import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Nav from "@/components/Nav";
-import BlogFeature from "@/components/BlogFeature";
+// import BlogFeature from "@/components/BlogFeature";
 import Achievements from "@/components/Achievements";
 
 export default function Home() {

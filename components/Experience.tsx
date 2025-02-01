@@ -29,7 +29,7 @@ export const data = [
         <div>
           <p className="font-bold pb-2">Software Developer - STR-SpeechTech LTD</p>
           <p className="text-base md:text-lg text-neutral-300 font-normal mb-8">
-            Played a key role in the transition from a code monolith to a microservices architecture. Created UI/UX prototypes for various pages of the application. Implemeneted a new service to allow processing of TAC weather data. Worked in a .NET architecture with a React front-end.
+            Played a key role in the transition from a code monolith to a microservices architecture. Created UI/UX prototypes for various pages of the application. Implemeneted a new service to allow processing of TAC weather data. Worked in a .NET environment with a React front-end.
           </p>
         </div>
       ),
@@ -62,7 +62,7 @@ export const data = [
         <div>
           <p className="font-bold pb-2">Full Stack Developer - Leanpub</p>
           <p className="text-base md:text-lg text-neutral-300 font-normal mb-8">
-            Developed the "Community Edition" feature for Leanpub, allowing authors to give extended samples of their book in exchange for a reader's email address. I also implemented several bug fixes and improved the checkout flow, increasing sale conversions by 15%.
+            Developed the &quot;Community Edition&quot; feature for Leanpub, allowing authors to give extended samples of their book in exchange for a reader&apos;s email address. I also implemented several bug fixes and improved the checkout flow, increasing sale conversions by 15%.
           </p>
         </div>
       ),
