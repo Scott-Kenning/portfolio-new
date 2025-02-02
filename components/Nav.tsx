@@ -5,40 +5,32 @@ import Link from "next/link";
 
 const Nav = () => {
   const [visible, setVisible] = useState(true);
-  const [isMobile, setIsMobile] = useState(false);
   let lastScrollY = 0;
 
   useEffect(() => {
-    const updateScreenSize = () => {
-      setIsMobile(window.innerWidth < 1024);
-    };
-
-    updateScreenSize();
-    window.addEventListener("resize", updateScreenSize);
-
     const handleScroll = () => {
-      if (!isMobile) return;
-
       const currentScrollY = window.scrollY;
+
       if (currentScrollY > lastScrollY && currentScrollY > 50) {
         setVisible(false);
       } else {
         setVisible(true);
       }
+
       lastScrollY = currentScrollY;
     };
 
     window.addEventListener("scroll", handleScroll);
+
     return () => {
-      window.removeEventListener("resize", updateScreenSize);
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [isMobile]);
+  }, []);
 
   return (
     <header
-      className={`w-screen absolute lg:fixed h-16 top-0 left-0 bg-black flex items-center border-b border-white/10 z-50 p-4 lg:p-0 transition-transform duration-300 ${
-        isMobile && !visible ? "-translate-y-full" : "translate-y-0"
+      className={`w-screen fixed h-16 top-0 left-0 bg-black flex items-center border-b border-white/10 z-50 p-4 lg:p-0 transition-transform duration-300 ${
+        visible ? "translate-y-0" : "-translate-y-full lg:translate-y-0"
       }`}
     >
       <div className="h-100 w-full mx-auto max-w-5xl flex justify-between items-center">
