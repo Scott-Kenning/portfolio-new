@@ -26,7 +26,7 @@ import Image from "next/image";
       title: "Advent of Code",
       description: "Advent of Code is an annual programming challenge that takes place in December. I created this website to showcase my solutions to the problems I completed.",
       url: "https://aoc2024solutions.vercel.app",
-      githubUrl: "https://github.com/scott-kenning/aoc2024",
+      githubUrl: "https://github.com/scott-kenning/cec-2025",
       imagePath: "/aoc.png"
     },
   ]
