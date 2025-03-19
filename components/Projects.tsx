@@ -3,28 +3,28 @@ import Image from "next/image";
   const cards = [
     {
       title: "StudySpaceFinder",
-      description: "A resource for UVic students to find empty classrooms on campus",
+      description: "A resource for UVic students to find empty classrooms on campus. I was the team lead on this project, and it was organized through Uvic's programming club VikeLabs.",
       url: "https://studyspace.vikelabs.ca",
       githubUrl: "https://github.com/VikeLabs/StudySpaceFinder",
       imagePath: "/studyspacefinder.png"
     },
     {
       title: "Portfolio v1",
-      description: "A previous portfolio I created without the use of any animation or component libraries",
+      description: "A previous iteration of my portfolio. It's outdated now, but the design was original and all effects were done without the use of any animation libraries.",
       url: "https://scottkenningv0.vercel.app",
       githubUrl: "https://github.com/scott-kenning/portfolio",
       imagePath: "/portfolio.png"
     },
     {
-      title: "ZoomLight",
-      description: "My simplest ever creation, and yet also my most useful one. A screen to use as a backlight for video calls",
-      url: "https://zoomlight.vercel.app",
+      title: "Brain Tumour Identifier",
+      description: "A machine learning model that can identify brain tumors in MRI scans. This project won 1st place in programming at the Canadian Engineering Competition. Note that this may not work on the first image as the back end will need time to spin up.",
+      url: "https://cec-2025.vercel.app",
       githubUrl: "https://github.com/scott-kenning/zoomlight",
-      imagePath: "/zoomlight.png"
+      imagePath: "/brainscanner.png"
     },
     {
       title: "Advent of Code",
-      description: "A website I created to showcase my Advent of Code 2024 solutions",
+      description: "Advent of Code is an annual programming challenge that takes place in December. I created this website to showcase my solutions to the problems I completed.",
       url: "https://aoc2024solutions.vercel.app",
       githubUrl: "https://github.com/scott-kenning/aoc2024",
       imagePath: "/aoc.png"

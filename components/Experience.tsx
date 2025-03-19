@@ -51,7 +51,7 @@ export const data = [
         <div>
           <p className="font-bold pb-2">Testing Engineer - PolicyMe</p>
           <p className="text-base md:text-lg text-neutral-300 font-normal mb-8">
-            Working with the business team, I designed and implemented an exhaustive test suite for a new product. I also implemented several test infrastructure upgrades such as improved website UI and test integration with Slack and Hubspot.
+            Working with the business team, I designed and implemented an exhaustive test suite for a new product. I also implemented several test infrastructure upgrades such as improved website UI and cypress test integration with Slack and Hubspot.
           </p>
         </div>
       ),

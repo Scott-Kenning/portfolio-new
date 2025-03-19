@@ -25,7 +25,7 @@ const About = () => {
           <div className="mx-auto mt-0">
             <div className="space-y-4 md:text-xl text-gray-300">
               <p className="line-height-1.2">
-                Fourth year student at the University of Victoria specializing in
+                Fifth year student at the University of Victoria specializing in
                 front-end development using <strong>React</strong>, <strong>Next.js</strong>, and <strong>Tailwind CSS</strong>.
               </p>
             </div>
