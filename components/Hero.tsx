@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen lg:min-h-[1px] h-[91vh] bg-dots flex items-center justify-center"
+      className="min-h-screen lg:min-h-[1px] h-[90vh] bg-dots flex items-center justify-center"
     >
       <div className="grid lg:grid-cols-3 max-w-5xl mx-auto md:pt-[10vh] justify-items-end">
         <div className="flex flex-col col-span-2 max-w-5xl gap-y-2">
@@ -25,7 +25,7 @@ const About = () => {
           <div className="mx-auto mt-0">
             <div className="space-y-4 md:text-xl text-gray-300">
               <p className="line-height-1.2">
-                Fifth year student at the University of Victoria specializing in
+                I specialize in
                 front-end development using <strong>React</strong>, <strong>Next.js</strong>, and <strong>Tailwind CSS</strong>.
               </p>
             </div>

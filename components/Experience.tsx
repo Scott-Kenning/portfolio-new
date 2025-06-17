@@ -2,6 +2,17 @@ import { Timeline } from "./ui/timeline"
 
 export const data = [
     {
+      title: "Jun 2025 - Present",
+      content: (
+        <div>
+          <p className="font-bold pb-2 text-neutral-200">Software Developer - STR-SpeechTech LTD</p>
+          <p className="text-base md:text-lg text-neutral-300 font-normal mb-8">
+            I'm currently leading the design of the newest version of our flagship product, a mission critical text-to-speech solution for air traffic control towers worldwide. This involves designing and implementing a microservice architecture to ensure reliability, as well as creating a new React front-end for the application with a modern and accessible UI.
+          </p>
+        </div>
+      ),
+    },
+    {
       title: "Sep - Dec 2024",
       content: (
         <div>

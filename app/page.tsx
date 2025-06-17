@@ -20,7 +20,11 @@ export default function Home() {
         </div>
       </div>
 
-      <div id="experience" className="section experience px-8 lg:p-0">
+      <div id="Achievements" className="section contact px-8 lg:p-0">
+        <Achievements />
+      </div>
+
+      <div id="experience" className="section experience px-8 lg:p-0  mt-32">
         <Experience />
       </div>
 
@@ -30,10 +34,6 @@ export default function Home() {
 
       {/* Commenting this out until I have more writing */}
       {/* <BlogFeature/> */}
-
-      <div id="Achievements" className="section contact px-8 lg:p-0 mt-16">
-        <Achievements />
-      </div>
 
       <div id="contact" className="section contact px-8 lg:p-0">
         <Contact />
